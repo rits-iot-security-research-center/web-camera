@@ -1,2 +1,13 @@
-# web-camera
-"Vulnerable web camera" for IoT Security Training
+# Webカメラを用いたIoTセキュリティ実習教材
+
+立命館大学IoTセキュリティ研究センター人材育成部会で作成した、IoTセキュリティ実習用の教材です。
+技術者に、IoTセキュリティの基礎を学んで貰うことを目的として開発しました。
+
+## 必要となる機材
+- Webカメラ（クライアント）
+-- Raspberry Pi 3B/4/ZeroW ＋ 電源
+-- Raspberry Pi用カメラモジュール
+- サーバ
+-- Raspberry Pi
+- 対外回線
+-- スマホのテザリングもしくはWi-Fiモバイルルータ
