@@ -10,6 +10,7 @@ if [ -z "$1" ]; then
 fi
 
 sudo systemctl enable ssh.service
+sudo systemctl start ssh.service
 
 mkdir -p $HOME/.ssh
 chmod -f 700 $HOME/.ssh
