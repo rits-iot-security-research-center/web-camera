@@ -20,3 +20,4 @@ wget https://github.com/rits-iot-security-research-center/web-camera/raw/main/di
 wget https://github.com/rits-iot-security-research-center/web-camera/raw/main/distfiles/clients/php.ini.dist
 wget https://github.com/rits-iot-security-research-center/web-camera/raw/main/distfiles/clients/apache2.conf.dist
 
+sudo systemctl enable ssh.service
