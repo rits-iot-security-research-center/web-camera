@@ -9,6 +9,8 @@ if [ -z "$1" ]; then
 	exit 1
 fi
 
+sudo systemctl enable ssh.service
+
 mkdir -p $HOME/.ssh
 chmod -f 700 $HOME/.ssh
 if [ ! -e $HOME/.ssh/id_ed25519 ]; then 
