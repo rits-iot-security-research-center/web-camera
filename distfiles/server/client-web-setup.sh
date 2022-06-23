@@ -8,7 +8,7 @@ fi
 scp www.tar.gz $1:/tmp/www.tar.gz
 ssh -n $1 "(cd /; sudo tar xfvz /tmp/www.tar.gz)"
 scp php.ini.dist $1:/tmp/php.ini
-ssh -n $1 "echo 'www-data        ALL=(ALL:ALL)   NOPASSWD: /usr/bin/libcamera-still' | sudo sh -c 'cat > /etc/sudosers.d/010_webcamera'"
+ssh -n $1 "echo 'www-data        ALL=(ALL:ALL)   NOPASSWD: /usr/bin/libcamera-still' | sudo sh -c 'cat > /etc/sudoers.d/010_webcamera'"
 ssh -n $1 "sudo mv -f /tmp/php.ini /etc/php/7.?/apache2"
 scp apache2.conf.dist $1:/tmp/apache2.conf
 ssh -n $1 "sudo mv -f /tmp/apache2.conf /etc/apache2/"
