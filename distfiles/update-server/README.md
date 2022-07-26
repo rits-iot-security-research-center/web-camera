@@ -1,4 +1,4 @@
-アップデート用ファイル
+## アップデート用ファイルの置き方
 update.tar.gz, update-hacked.tar.gzとも
 https://iotserver.cysec-lab.org/download/update.tar.gz
 に見えるようにおく
